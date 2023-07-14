@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Notification-inbox-sample</string>
+    <string name="username_hint">user id</string>
+    <string name="password_hint">password</string>
+    <string name="Notifications">Notifications</string>
+    <string name="module_title">Notification-Inbox</string>
+</resources>

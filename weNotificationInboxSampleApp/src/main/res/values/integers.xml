@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="cuid_max_length">128</integer>
+    <integer name="edittext_length">32</integer>
+    <integer name="hash_length">64</integer>
+    <integer name="key_weight">1</integer>
+    <integer name="value_weight">3</integer>
+</resources>

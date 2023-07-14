@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+    <style name="WebEngage">
+    </style>
+    <style name="WebEngage.NI"></style>
+
+    <style name="WebEngage.NI.Title">
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="WebEngage.NI.MessageDescription">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="WebEngage.NI.CardView" parent="Base.CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+
+    <style name="WebEngage.NI.CardImageView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="WebEngage.NI.TimeStamp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="WebEngage.NI.Button" parent="Widget.AppCompat.Button">
+         <item name="backgroundTint">@android:color/transparent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="iconGravity">textStart</item>
+        <item name="android:stateListAnimator" />
+    </style>
+
+    <style name="WebEngage.NI.NotificationIcon">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_marginStart">100dp</item>
+        <item name="android:layout_marginEnd">100dp</item>
+        <item name="android:layout_marginBottom">30dp</item>
+    </style>
+
+    <style name="WebEngage.NI.ErrorMessage" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <!--    Banner Styles      -->
+    <style name="WebEngage.NI.Banner"></style>
+
+    <style name="WebEngage.NI.Banner.Title" parent="WebEngage.NI.Title">
+<!--        <item name="android:textColor">#5A1FC3</item>-->
+    </style>
+
+    <style name="WebEngage.NI.Banner.MessageDescription" parent="WebEngage.NI.MessageDescription">
+        <item name="android:maxLines">3</item>
+    </style>
+
+    <style name="WebEngage.NI.Banner.CardView" parent="WebEngage.NI.CardView">
+        <item name="cardBackgroundColor">#fff</item>
+    </style>
+
+    <style name="WebEngage.NI.Banner.CardImageView" parent="WebEngage.NI.CardImageView" />
+
+    <style name="WebEngage.NI.Banner.TimeStamp" parent="WebEngage.NI.TimeStamp">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="WebEngage.NI.Banner.ReadButton" parent="WebEngage.NI.Button">
+        <item name="icon">@drawable/bx_envelope</item>
+        <item name="iconTint">@android:color/holo_orange_light</item>
+    </style>
+
+    <style name="WebEngage.NI.Banner.UnReadButton" parent="WebEngage.NI.Button">
+        <item name="icon">@drawable/bx_envelope_open</item>
+        <item name="iconTint">@android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="WebEngage.NI.Banner.DeleteButton" parent="WebEngage.NI.Button">
+        <item name="icon">@drawable/ic_delete</item>
+        <item name="iconTint">@android:color/holo_green_dark</item>
+    </style>
+
+    <style name="WebEngage.NI.Banner.NotificationIcon" parent="WebEngage.NI.NotificationIcon">
+        <item name="android:src">@drawable/bell</item>
+    </style>
+
+    <style name="WebEngage.NI.Banner.ErrorMessage" parent="WebEngage.NI.ErrorMessage">
+        <item name="android:textColor">#3E7FA8</item>
+    </style>
+
+
+    <!--    Text Styles      -->
+
+    <style name="WebEngage.NI.Text"></style>
+
+    <style name="WebEngage.NI.Text.Title" parent="WebEngage.NI.Title">
+<!--        <item name="android:textColor">#E91E63</item>-->
+    </style>
+
+    <style name="WebEngage.NI.Text.MessageDescription" parent="WebEngage.NI.MessageDescription">
+        <item name="android:maxLines">3</item>
+    </style>
+
+    <style name="WebEngage.NI.Text.CardView" parent="WebEngage.NI.CardView">
+        <item name="cardBackgroundColor">#fff</item>
+    </style>
+
+    <style name="WebEngage.NI.Text.CardImageView" parent="WebEngage.NI.CardImageView" />
+
+    <style name="WebEngage.NI.Text.Time" parent="WebEngage.NI.TimeStamp">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+    <style name="WebEngage.NI.Text.ReadButton" parent="WebEngage.NI.Button">
+        <item name="icon">@drawable/bx_envelope</item>
+        <item name="iconTint">@android:color/holo_orange_light</item>
+    </style>
+
+    <style name="WebEngage.NI.Text.UnReadButton" parent="WebEngage.NI.Button">
+        <item name="icon">@drawable/bx_envelope_open</item>
+        <item name="iconTint">@android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="WebEngage.NI.Text.DeleteButton" parent="WebEngage.NI.Button">
+        <item name="icon">@drawable/ic_delete</item>
+        <item name="iconTint">@android:color/holo_green_dark</item>
+    </style>
+
+    <style name="WebEngage.NI.Text.NotificationIcon" parent="WebEngage.NI.NotificationIcon">
+        <item name="android:src">@drawable/bell</item>
+    </style>
+    <style name="WebEngage.NI.Text.ErrorMessage" parent="WebEngage.NI.ErrorMessage">
+        <item name="android:textColor">#3E7FA8</item>
+    </style>
+
+</resources>

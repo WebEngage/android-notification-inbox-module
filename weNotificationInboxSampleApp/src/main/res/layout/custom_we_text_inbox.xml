@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/we1_notification_inbox_card"
+    style="@style/WebEngage.NI.Text.CardView"
+    tools:targetApi="p">
+
+    <LinearLayout
+        android:id="@+id/we_notification_custom_text_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/anonymous"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/we_notification_custom_inbox_text_title"
+            style="@style/WebEngage.NI.Text.Title" />
+
+        <TextView
+            android:id="@+id/we_notification_custom_inbox_text_message"
+            style="@style/WebEngage.NI.Text.MessageDescription" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="start">
+
+                <TextView
+                    android:id="@+id/we_notification_custom_inbox_text_time"
+                    style="@style/WebEngage.NI.Text.Time"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="start">
+
+                <Button
+                    android:id="@+id/we_notification_custom_inbox_text_markUnreadButton"
+                    style="@style/WebEngage.NI.Text.UnReadButton" />
+
+                <Button
+                    android:id="@+id/we_notification_custom_inbox_text_markReadButton"
+                    style="@style/WebEngage.NI.Text.ReadButton" />
+
+
+                <Button
+                    android:id="@+id/we_notification_custom_inbox_text_deleteButton"
+                    style="@style/WebEngage.NI.Text.DeleteButton" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

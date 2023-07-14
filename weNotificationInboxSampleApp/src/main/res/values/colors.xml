@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#753EAC</color>
+    <color name="colorPrimaryDark">#48347D</color>
+    <color name="colorAccent">#749C95</color>
+
+    <!-- custom -->
+    <color name="anonymous">#AAAAAA</color>
+    <color name="logged_in">#EEEEEE</color>
+    <color name="dark_button">#999999</color>
+    <color name="light_button">#DDDDDD</color>
+    <color name="orange_light">#ffbb33</color>
+    <color name="transparent">#000000FF</color>
+    <color name="off_white">#bbb</color>
+
+    <color name="purple_200">#620000</color>
+
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+</resources>

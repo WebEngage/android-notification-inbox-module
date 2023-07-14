@@ -1,0 +1,9 @@
+<resources>
+    <string name="module_title">Notification-Inbox</string>
+    <string name="something_went_wrong">Oops! Something went wrong</string>
+    <string name="read_all">Read All</string>
+    <string name="bulk_delete">Delete All</string>
+    <string name="no_new_Notification">No new notifications</string>
+    <string name="push_support_title">We are only supporting Push channel right now!</string>
+    <string name="push_support_description">We\'re sorry! we are currently supporting only push notifications! We are working on to get more channels here...!</string>
+</resources>

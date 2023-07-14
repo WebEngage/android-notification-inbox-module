@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application android:allowBackup="false">
+        <activity
+            android:name="com.webengage.notification_inbox_plugin.view.WENotificationInboxActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

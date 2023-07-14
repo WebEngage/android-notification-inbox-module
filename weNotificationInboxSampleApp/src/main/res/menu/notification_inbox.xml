@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_login_button"
+        android:orderInCategory="100"
+        android:title="Login"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_notification"
+        android:icon="@drawable/ic_notification_bell"
+        android:iconTint="@color/off_white"
+        android:orderInCategory="100"
+        android:title="Notification"
+        app:actionLayout="@layout/layout_notification_icon_badge"
+        app:showAsAction="always" />
+
+</menu>

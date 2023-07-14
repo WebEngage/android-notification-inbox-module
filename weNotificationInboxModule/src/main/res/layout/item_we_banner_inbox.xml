@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/we_notification_inbox_card"
+    style="@style/WebEngage.NI.Banner.CardView"
+    tools:targetApi="p">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/we_notification_inbox_banner_Image"
+            style="@style/WebEngage.NI.Banner.CardImageView" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/we_notification_inbox_banner_title"
+            style="@style/WebEngage.NI.Banner.Title" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/we_notification_inbox_banner_message"
+            style="@style/WebEngage.NI.Banner.MessageDescription" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="start">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/we_notification_inbox_banner_time"
+                    style="@style/WebEngage.NI.Text.Time"
+                    />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="end">
+
+                <Button
+                    android:id="@+id/we_notification_inbox_banner_markUnreadButton"
+                    style="@style/WebEngage.NI.Banner.UnReadButton" />
+
+                <Button
+                    android:id="@+id/we_notification_inbox_banner_markReadButton"
+                    style="@style/WebEngage.NI.Banner.ReadButton" />
+
+
+                <Button
+                    android:id="@+id/we_notification_inbox_banner_deleteButton"
+                    style="@style/WebEngage.NI.Banner.DeleteButton" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.cardview.widget.CardView>
